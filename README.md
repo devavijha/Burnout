@@ -1,4 +1,4 @@
-# ResetOS 🧠⚡
+# ResetOS 
 
 ResetOS is a modern, premium dopamine detox, burnout prevention, and recovery ecosystem. Designed for high-performers, builders, and knowledge workers, it functions as a personal operating system to track cognitive load, schedule optimized focus states, initiate guided physical/mental recovery routines, and interact with an AI cognitive coach.
 
@@ -8,9 +8,9 @@ The project is structured as a monorepo consisting of:
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 💻 Mobile Client (`/`)
+### Mobile Client (`/`)
 * **Dashboard Hub**: High-fidelity personal hub displaying active detox streaks, real-time energy rings, and direct actions.
 * **Focus & Recovery Systems**: Custom Pomodoro engines, deep-work timers, and guided recovery modules (e.g., box breathing, eye exercises, stretching).
 * **AI Cognitive Coach**: An interactive, localized chatbot helper configured to provide behavioral analytics, advice, and mental health checkups.
@@ -18,7 +18,7 @@ The project is structured as a monorepo consisting of:
 * **Sleep & Analytics**: Telemetry analysis, interactive activity heatmaps, and structured health data visualization.
 * **Gamification & Customization**: Dynamic experience points (XP) rewards, achievements, challenges, and customizable themes.
 
-### 🔌 Backend Neural API (`/backend`)
+### Backend Neural API (`/backend`)
 * **AI Engine**: Core engine processing assessments and generating dynamic recovery recommendations powered by OpenAI.
 * **Robust Security Stack**: Secured with **Helmet**, **CORS**, and layered rate-limiting (`express-rate-limit`) to defend against scraping and token depletion.
 * **Firebase Admin SDK stubbing**: Local authentication middleware decoding JWT authorization tokens.
@@ -26,7 +26,7 @@ The project is structured as a monorepo consisting of:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend Mobile
 * **Framework**: React Native with [Expo SDK 54](https://expo.dev)
@@ -46,7 +46,7 @@ The project is structured as a monorepo consisting of:
 
 ---
 
-## ⚙️ Environment Configuration
+## Environment Configuration
 
 Before launching either service, configure the environment variables:
 
@@ -78,11 +78,11 @@ FIREBASE_PROJECT_ID=your_firebase_project_id
 
 ---
 
-## 🏁 Getting Started
+## Getting Started
 
 Clone the repository and install the dependencies:
 
-### 📦 Installation
+### Installation
 
 To install dependencies for both the frontend application and backend service:
 
@@ -96,7 +96,7 @@ npm install
 cd ..
 ```
 
-### 🏃 Running the Project
+### Running the Project
 
 You can run both systems concurrently:
 
@@ -119,7 +119,7 @@ npm run web     # Start Web Preview
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ResetOS/
